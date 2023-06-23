@@ -2,7 +2,27 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "@pages": ["pages/"],
+      "@pages": [
+        "pages/"
+      ],
+      "@components":[
+        "components/"
+      ],
+      "@conteiners":[
+        "conteiners/"
+      ],
+      "@icons":[
+        "assets/icons"
+      ],
+      "@logos":[
+        "assets/logos"
+      ],
+      "@context":[
+        "context/"
+      ],
+      "styles":[
+        "styles/"
+      ]
     }
   }
 }
