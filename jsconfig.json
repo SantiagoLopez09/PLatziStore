@@ -5,24 +5,27 @@
       "@pages/*": [
         "pages/*"
       ],
-      "@components/*":[
+      "@components/*": [
         "components/*"
       ],
-      "@conteiners/*":[
-        "conteiners/*"
+      "@containers/*": [
+        "containers/*"
       ],
-      "@icons/*":[
+      "@icons/*": [
         "assets/icons/*"
       ],
-      "@logos/*":[
+      "@logos/*": [
         "assets/logos/*"
       ],
-      "@context/*":[
+      "@context/*": [
         "context/*"
       ],
-      "@styles/*":[
+      "@styles/*": [
         "styles/*"
-      ]
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
     }
   }
 }
