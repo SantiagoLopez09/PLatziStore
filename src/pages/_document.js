@@ -5,21 +5,12 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>React Shop</title>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZT99DZ0HY"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-6ZT99DZ0HY');`,
-            }}
-          />
-          <body>
-            <Main />
-            <NextScript />
-          </body>
+          <meta charSet="utf-8" />
         </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
       </Html>
     );
   }
